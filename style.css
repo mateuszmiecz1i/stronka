@@ -3,6 +3,7 @@ footer {
   background-color: #595859;
   color: white;
   padding: 20px 0;
+  border-radius: 0.375rem;
 }
 
 .footer-container {
@@ -22,7 +23,7 @@ footer {
   color: #ffffff;
 }
 
-.footer-info p, .footer-hours p, .footer-contact p, .footer-social a {
+.footer-info p, .footer-hours p, .footer-contact p, .footer-contact a, .footer-social a {
   color: #f0e3e3;
   margin: 5px 0;
 }
@@ -44,4 +45,8 @@ footer {
   padding: 10px;
   background-color: #3B3B3B;
   font-size: 14px;
+}
+.footer-social-logo{
+ width :var(--bs-body-font-size);
+ height :var(--bs-body-font-size);
 }
